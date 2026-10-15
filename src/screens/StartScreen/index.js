@@ -3,15 +3,15 @@ import { View, Image, Text } from "react-native";
 // Importações diretas (sem chaves se forem 'export default')
 import {ButtonPrimary} from "../../components/ButtonPrimary";
 import {ButtonOutline} from "../../components/ButtonOutline";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/image/logo.png";
 import { styles } from "./style";
-//import{useFonts}from 'expo-font'
+import{useFonts}from 'expo-font'
 
 export const StartScreen = () => {
  
-  // useFonts({
-  // //  Oswald: require('../../assets/fonts/Oswald-VariableFont_wght.ttf')
-  // })
+  useFonts({
+   Oswald: require('../../assets/fonts/Oswald-VariableFont_wght.ttf')
+  })
   return (
 
     <View style = {styles.containerStartScreen}> 
