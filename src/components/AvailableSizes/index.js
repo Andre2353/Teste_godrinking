@@ -20,7 +20,7 @@ export const AvailableSizes = () => {
                 <CardSize image={Lata} amount="429" measure="ml"/>
                 <CardSize image={Garrafa} amount="1" measure="L"/>
                 <CardSize image={Garrafa} amount="429" measure="ml"/>
-                <CardSize image={Lata} amount="429" measure="ml"/>
+                <CardSize image={Lata} amount="310" measure="ml"/>
                 <CardSize image={Lata} amount="429" measure="ml"/>
             </ScrollView>
         </View>
