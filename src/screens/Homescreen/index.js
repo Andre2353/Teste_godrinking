@@ -5,6 +5,8 @@ import Logo from "../../assets/image/logo.png"
 import { OurOffers } from '../../components/OurOffers';
 import { styles } from "./style";
 import { AvailableSizes } from "../../components/AvailableSizes";
+import { OurHighlights } from "../../components/OurHighilights";
+
 
 export const Homescreen = () => {
      useFonts({
@@ -15,6 +17,8 @@ export const Homescreen = () => {
             <Image style={styles.logoHome}source={Logo}/>
             <OurOffers/>
             <AvailableSizes/>
+            <OurHighlights/>
+          
         </View>
     )
 }
